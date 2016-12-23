@@ -7,14 +7,16 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon server/index.js"
   },
   "dependencies": {
     "express": "4.13.3",
+    "nodemon": "^1.11.0",
+    "nunjucks": "^3.0.0"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mkosowsk/strength"
   },
   "keywords": [
     "node",
