@@ -8,7 +8,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base src",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+    "build": "webpack --config ./webpack.config.js --progress --colors",
+    "start": "node app.js"
   },
   "dependencies": {
     "babel-core": "^6.17.0",
