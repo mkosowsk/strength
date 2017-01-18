@@ -28,16 +28,16 @@ export default class Nav extends React.Component {
                 <IndexLink to="/">Main</IndexLink>
               </li>
               <li activeClassName="active">
-                <Link to="squat">Squat</Link>
+                <Link to="/squat">Squat</Link>
               </li>
               <li activeClassName="active">
-                <Link to="bench">Bench</Link>
+                <Link to="/bench">Bench</Link>
               </li>
               <li activeClassName="active">
-                <Link to="deadlift">Deadlift</Link>
+                <Link to="/deadlift">Deadlift</Link>
               </li>
               <li activeClassName="active">
-                <Link to="row">Row</Link>
+                <Link to="/row">Row</Link>
               </li>
             </ul>
           </div>
