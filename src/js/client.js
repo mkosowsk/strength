@@ -33,7 +33,7 @@ const benchExercises = [
 ];
 
 const deadliftExercises = [
-	["Deadlift"],
+	["Deadlifts"],
 	["Deadlift", "4", "6", "405 lbs." ],
     ["Pulldown", "5", "12", "160 lbs."],
     ["Back Extension", "4", "12", "25 lbs."],
