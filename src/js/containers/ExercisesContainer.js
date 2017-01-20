@@ -1,12 +1,12 @@
-import Bench from '../components/Bench';
+import Exercises from '../components/Exercises';
 import { connect } from 'react-redux';
 
 const mapStateToProps = (state) => {
   return {
-    benchExercises: state.benchExercises.list
+    exercises: state.exercises.list
   };
 };
 
 export default connect(
   mapStateToProps
-)(Bench);
+)(Exercises);

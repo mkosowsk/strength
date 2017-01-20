@@ -1,19 +1,19 @@
 import {
-  RECEIVE_SQUAT_EXERCISES
+  RECEIVE_EXERCISES
 } from '../constants';
 
 
-const initialSquatExercisesState = {
+const initialExercisesState = {
   list: []
 };
 
-export default function (state = initialSquatExercisesState, action) {
+export default function (state = initialExercisesState, action) {
   // console.log(action);
   const newState = Object.assign({}, state);
   
   switch (action.type) {
-    case RECEIVE_SQUAT_EXERCISES:
-      newState.list = action.squatExercises;
+    case RECEIVE_EXERCISES:
+      newState.list = action.exercises;
       break;
 
     // case RECEIVE_PRODUCT:

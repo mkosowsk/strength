@@ -1,11 +1,8 @@
 import { combineReducers } from 'redux';
-import squatReducer from './squat-reducer';
-import benchReducer from './bench-reducer';
-
+import exercisesReducer from './exercises-reducer';
 
 const rootReducer = combineReducers({
-  squatExercises: squatReducer,
-  benchExercises: benchReducer
+  exercises: exercisesReducer
 })
 
 export default rootReducer
