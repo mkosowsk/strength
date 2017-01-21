@@ -8,7 +8,7 @@ const videoTwoId = 'CnBmiBqp-AI';
 export default class StandingPressVideos extends React.Component {
   constructor(props) {
     super(props);
-    console.log(YouTube);
+
     this.state = {
       videoOneId: videoOneId,
       videoTwoId: videoTwoId,

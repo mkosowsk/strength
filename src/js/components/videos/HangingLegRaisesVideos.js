@@ -7,7 +7,7 @@ const videoOneId = 'hdng3Nm1x_E';
 export default class HangingLegRaisesVideos extends React.Component {
   constructor(props) {
     super(props);
-    console.log(YouTube);
+
     this.state = {
       videoOneId: videoOneId,
       player: null,

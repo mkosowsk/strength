@@ -7,7 +7,7 @@ const videoOneId = 'o5OvdIVV61M';
 export default class ReverseMachineFlyVideos extends React.Component {
   constructor(props) {
     super(props);
-    console.log(YouTube);
+
     this.state = {
       videoOneId: videoOneId,
       player: null,

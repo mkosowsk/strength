@@ -7,7 +7,7 @@ const videoOneId = '3UWi44yN-wM';
 export default class CalfRaisesVideos extends React.Component {
   constructor(props) {
     super(props);
-    console.log(YouTube);
+
     this.state = {
       videoOneId: videoOneId,
       player: null,

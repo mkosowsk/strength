@@ -9,6 +9,8 @@ export default function(props) {
 	const title = titleAndExercises[0];
 	const exercises = titleAndExercises.slice(1);
 
+	const cellStyle = {color: 'blue', border: '1px solid black', textDecoration: 'underline'};
+
     return (
       <div>
         <h2>{title} Day</h2>
@@ -22,12 +24,11 @@ export default function(props) {
 				</tr>
 				{
 					exercises && exercises.map(exercise => (
-						<tr key={exercise} onClick={
-							() => {
-								browserHistory.push('/' + exercise[0].split(' ').join('_').toLowerCase() + '_videos');
-							}
-						}>
-							<TableExerciseName key={exercise[0] + " Name"} content={exercise[0]} />
+						<tr key={exercise} >
+							<td key={exercise[0] + " Name"} style={cellStyle} 
+								onClick={ () => browserHistory.push('/' + exercise[0].split(' ').join('_').toLowerCase() + '_videos') }>
+								{exercise[0]}
+							</td>
 							<TableData key={exercise[0] + " Sets"} content={exercise[1]} />
 							<TableData key={exercise[0] + " Reps"} content={exercise[2]} />
 							<TableData key={exercise[0] + " Weight"} content={exercise[3]} />
