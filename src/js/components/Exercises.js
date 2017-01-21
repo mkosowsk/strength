@@ -9,12 +9,6 @@ export default function(props) {
 	const title = titleAndExercises[0];
 	const exercises = titleAndExercises.slice(1);
 
-
-  	// const handleClick = function(e) {
-  	// 	e.preventDefault();
-  	// 	browserHistory.push('/sample');
-  	// }
-
     return (
       <div>
         <h2>{title} Day</h2>
@@ -30,7 +24,7 @@ export default function(props) {
 					exercises && exercises.map(exercise => (
 						<tr key={exercise} onClick={
 							() => {
-								browserHistory.push('/' + exercise[0]);
+								browserHistory.push('/' + exercise[0].split(' ').join('_').toLowerCase() + '_videos');
 							}
 						}>
 							<TableExerciseName key={exercise[0] + " Name"} content={exercise[0]} />
