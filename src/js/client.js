@@ -17,6 +17,22 @@ import ReverseMachineFlyVideos from "./components/videos/ReverseMachineFlyVideos
 import CalfRaisesVideos from "./components/videos/CalfRaisesVideos";
 import HangingLegRaisesVideos from "./components/videos/HangingLegRaisesVideos";
 
+import InclineBenchPressVideos from "./components/videos/InclineBenchPressVideos";
+import HammerCurlsVideos from "./components/videos/HammerCurlsVideos";
+import FacePullsVideos from "./components/videos/FacePullsVideos";
+import InclineDumbbellPressVideos from "./components/videos/InclineDumbbellPressVideos";
+import DipsVideos from "./components/videos/DipsVideos";
+
+import DeadliftVideos from "./components/videos/DeadliftVideos";
+import PulldownVideos from "./components/videos/PulldownVideos";
+import BackExtensionVideos from "./components/videos/BackExtensionVideos";
+import FarmersWalkVideos from "./components/videos/FarmersWalkVideos";
+
+import BentOverRowVideos from "./components/videos/BentOverRowVideos";
+import PullUpVideos from "./components/videos/PullUpVideos";
+import CurlsVideos from "./components/videos/CurlsVideos";
+import InvertedRowVideos from "./components/videos/InvertedRowVideos";
+
 const squatExercises = [
 	["Squat"],
     ["Squat", "4", "10", "275 lbs." ],
@@ -85,7 +101,22 @@ ReactDOM.render(
 				<Route path="/reverse_machine_fly_videos" component={ReverseMachineFlyVideos}></Route>
 				<Route path="/calf_raises_videos" component={CalfRaisesVideos}></Route>
 				<Route path="/hanging_leg_raises_videos" component={HangingLegRaisesVideos}></Route>
-				
+
+				<Route path="/incline_bench_press_videos" component={InclineBenchPressVideos}></Route>
+				<Route path="/hammer_curls_videos" component={HammerCurlsVideos}></Route>
+				<Route path="/face_pulls_videos" component={FacePullsVideos}></Route>
+				<Route path="/incline_dumbbell_press_videos" component={InclineDumbbellPressVideos}></Route>
+				<Route path="/dips_videos" component={DipsVideos}></Route>
+
+				<Route path="/deadlift_videos" component={DeadliftVideos}></Route>
+				<Route path="/pulldown_videos" component={PulldownVideos}></Route>
+				<Route path="/back_extension_videos" component={BackExtensionVideos}></Route>
+				<Route path="/farmer's_walk_videos" component={FarmersWalkVideos}></Route>
+
+				<Route path="/bent_over_row_videos" component={BentOverRowVideos}></Route>
+				<Route path="/pull-up_videos" component={PullUpVideos}></Route>
+				<Route path="/curls_videos" component={CurlsVideos}></Route>
+				<Route path="/inverted_row_videos" component={InvertedRowVideos}></Route>
 			</Route>
 		</Router>
 	</Provider>, 
