@@ -18,6 +18,7 @@ import CalfRaisesVideos from "./components/videos/CalfRaisesVideos";
 import HangingLegRaisesVideos from "./components/videos/HangingLegRaisesVideos";
 
 import InclineBenchPressVideos from "./components/videos/InclineBenchPressVideos";
+import HighCableChestFlyVideos from "./components/videos/HighCableChestFlyVideos";
 import HammerCurlsVideos from "./components/videos/HammerCurlsVideos";
 import FacePullsVideos from "./components/videos/FacePullsVideos";
 import InclineDumbbellPressVideos from "./components/videos/InclineDumbbellPressVideos";
@@ -33,6 +34,8 @@ import PullUpVideos from "./components/videos/PullUpVideos";
 import CurlsVideos from "./components/videos/CurlsVideos";
 import InvertedRowVideos from "./components/videos/InvertedRowVideos";
 
+import ExampleChart from "./components/charts/ExampleChart";
+
 const squatExercises = [
 	["Squat"],
     ["Squat", "4", "10", "275 lbs." ],
@@ -47,6 +50,7 @@ const benchExercises = [
 	["Incline Bench Press", "3", "10", "215 lbs." ],
     ["Hammer Curls", "3", "10", "25 lbs."],
     ["Face Pulls", "5", "12", "95 lbs."],
+    ["High Cable Chest Fly", "4", "16", "35 lbs."],
     ["Incline Dumbbell Press", "5", "10", "50 lbs."],
 	["Calf Raises", "4", "20", "225 lbs."],	
 	["Dips", "3", "12"],
@@ -105,6 +109,7 @@ ReactDOM.render(
 				<Route path="/incline_bench_press_videos" component={InclineBenchPressVideos}></Route>
 				<Route path="/hammer_curls_videos" component={HammerCurlsVideos}></Route>
 				<Route path="/face_pulls_videos" component={FacePullsVideos}></Route>
+				<Route path="/high_cable_chest_fly_videos" component={HighCableChestFlyVideos}></Route>
 				<Route path="/incline_dumbbell_press_videos" component={InclineDumbbellPressVideos}></Route>
 				<Route path="/dips_videos" component={DipsVideos}></Route>
 
@@ -117,6 +122,8 @@ ReactDOM.render(
 				<Route path="/pull-up_videos" component={PullUpVideos}></Route>
 				<Route path="/curls_videos" component={CurlsVideos}></Route>
 				<Route path="/inverted_row_videos" component={InvertedRowVideos}></Route>
+
+				<Route path="/example_chart" component={ExampleChart}></Route>
 			</Route>
 		</Router>
 	</Provider>, 
