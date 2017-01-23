@@ -34,7 +34,11 @@ import PullUpVideos from "./components/videos/PullUpVideos";
 import CurlsVideos from "./components/videos/CurlsVideos";
 import InvertedRowVideos from "./components/videos/InvertedRowVideos";
 
-import ExampleChart from "./components/charts/ExampleChart";
+import DeadliftChart from "./components/charts/DeadliftChart";
+import PulldownChart from "./components/charts/PulldownChart";
+import BackExtensionChart from "./components/charts/BackExtensionChart";
+import FarmersWalkChart from "./components/charts/FarmersWalkChart";
+
 
 const squatExercises = [
 	["Squat"],
@@ -123,7 +127,10 @@ ReactDOM.render(
 				<Route path="/curls_videos" component={CurlsVideos}></Route>
 				<Route path="/inverted_row_videos" component={InvertedRowVideos}></Route>
 
-				<Route path="/example_chart" component={ExampleChart}></Route>
+				<Route path="/deadlift_chart" component={DeadliftChart}></Route>
+				<Route path="/pulldown_chart" component={PulldownChart}></Route>
+				<Route path="/back_extension_chart" component={BackExtensionChart}></Route>
+				<Route path="/farmer's_walk_chart" component={FarmersWalkChart}></Route>
 			</Route>
 		</Router>
 	</Provider>, 

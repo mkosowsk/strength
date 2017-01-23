@@ -31,7 +31,10 @@ export default function(props) {
 							</td>
 							<TableData key={exercise[0] + " Sets"} content={exercise[1]} />
 							<TableData key={exercise[0] + " Reps"} content={exercise[2]} />
-							<TableData key={exercise[0] + " Weight"} content={exercise[3]} />
+							<td key={exercise[0] + " Weight"} style={cellStyle} 
+								onClick={ () => browserHistory.push('/' + exercise[0].split(' ').join('_').toLowerCase() + '_chart') }>
+								{exercise[3]}
+							</td>
 						</tr>
 						)
 					)
