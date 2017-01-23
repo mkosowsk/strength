@@ -4,6 +4,8 @@ import {browserHistory} from 'react-router';
 import TableData from "./TableData"
 import TableExerciseName from "./TableExerciseName"
 
+import Stopwatch from "../components/Exercises/Stopwatch";
+
 export default function(props) {
 	const titleAndExercises = props.exercises;
 	const title = titleAndExercises[0];
@@ -20,7 +22,10 @@ export default function(props) {
 					<th style={{width: '160px', textAlign: 'center', border: '1px solid black'}}>Exercise</th>
 					<th style={{width: '40px', textAlign: 'center', border: '1px solid black'}}>Sets</th>
 					<th style={{width: '40px', textAlign: 'center', border: '1px solid black'}}>Reps</th>
-					<th style={{width: '80px', textAlign: 'center', border: '1px solid black'}}>Weight</th>
+					<th style={{width: '80px', textAlign: 'center', border: '1px solid black', color: 'blue', textDecoration: 'underline'}} 
+						onClick={ () => browserHistory.push('/deadlift_exercises_chart') }>
+						Weight
+						</th>
 				</tr>
 				{
 					exercises && exercises.map(exercise => (
@@ -41,6 +46,7 @@ export default function(props) {
 				}
 			</tbody>
 		</table>
+		<Stopwatch />
       </div>
     );
 }

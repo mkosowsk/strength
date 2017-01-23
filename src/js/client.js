@@ -39,6 +39,7 @@ import PulldownChart from "./components/charts/PulldownChart";
 import BackExtensionChart from "./components/charts/BackExtensionChart";
 import FarmersWalkChart from "./components/charts/FarmersWalkChart";
 
+import DeadliftExercisesChart from "./components/charts/DeadliftExercisesChart";
 
 const squatExercises = [
 	["Squat"],
@@ -131,6 +132,8 @@ ReactDOM.render(
 				<Route path="/pulldown_chart" component={PulldownChart}></Route>
 				<Route path="/back_extension_chart" component={BackExtensionChart}></Route>
 				<Route path="/farmer's_walk_chart" component={FarmersWalkChart}></Route>
+
+				<Route path="/deadlift_exercises_chart" component={DeadliftExercisesChart}></Route>
 			</Route>
 		</Router>
 	</Provider>, 
