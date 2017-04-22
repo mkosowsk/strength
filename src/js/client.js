@@ -43,11 +43,11 @@ import DeadliftExercisesChart from "./components/charts/DeadliftExercisesChart";
 
 const squatExercises = [
 	["Squat"],
-    ["Squat", "4", "10", "275 lbs." ],
-    ["Standing Press", "3", "3", "155 lbs."],
+    ["Squat", "1", "5", "315 lbs."],
+    ["Squat", "4", "8", "235 lbs."],
     ["Reverse Machine Fly", "4", "12", "160 lbs."],
-    ["Calf Raises", "4", "20", "225 lbs."],
-    ["Hanging Leg Raises", "4", "6"]
+    ["Stiff Legged Deadlift", "4", "10", "135 lbs."],
+    ["Ab Wheel", "5", "10"],
  ];
 
 const benchExercises = [
@@ -57,7 +57,6 @@ const benchExercises = [
     ["Face Pulls", "5", "12", "95 lbs."],
     ["High Cable Chest Fly", "4", "16", "35 lbs."],
     ["Incline Dumbbell Press", "5", "10", "50 lbs."],
-	["Calf Raises", "4", "20", "225 lbs."],	
 	["Dips", "3", "12"],
 ];
 
@@ -71,9 +70,11 @@ const deadliftExercises = [
 
 const rowExercises = [
 	["Row"],
-	["Bent Over Row", "5", "10", "250 lbs." ],
+	["Bent Over Row", "5", "10", "230 lbs." ],
+    ["Standing Press", "3", "5", "135 lbs."],
     ["Pull-up", "3", "10"],
     ["Curls", "2", "10", "85 lbs."],
+	["Calf Raises", "4", "20", "225 lbs."],	
     ["Inverted Row", "5", "10"],
 ];
 
