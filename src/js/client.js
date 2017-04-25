@@ -76,8 +76,7 @@ const rowExercises = [
     ["Standing Press", "3", "5", "135 lbs."],
     ["Pull-up", "3", "10"],
     ["Curls", "2", "10", "85 lbs."],
-	["Calf Raises", "4", "20", "225 lbs."],	
-    ["Inverted Row", "5", "10"],
+    ["Inverted Row", "3", "12"],
 ];
 
 const onSquatExercisesEnter = () => {
