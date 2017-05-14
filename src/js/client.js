@@ -43,12 +43,11 @@ import DeadliftExercisesChart from "./components/charts/DeadliftExercisesChart";
 
 const squatExercises = [
 	["Squat"],
-    ["Squat", "2", "5", "315 lbs."],
-    ["Squat", "3", "8", "245 lbs."],
-    ["Reverse Machine Fly", "4", "12", "160 lbs."],
-    ["Lateral/Bent Over Raises", "3", "8", "20 lbs."],
-    ["Romanian Deadlift", "4", "10", "135 lbs."],
-    ["Hanging Leg Raises", "4", "6"],
+    ["Squat", "4", "5", "315 lbs."],
+    ["Squat", "1", "7", "315 lbs."],
+    ["Reverse Machine Fly", "3", "12", "160 lbs."],
+    ["Lateral/Bent Over Raises", "3", "20", "25 lbs."],
+    ["Romanian Deadlift", "3", "10", "185 lbs."],
  ];
 
 const benchExercises = [
