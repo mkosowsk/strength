@@ -70,7 +70,7 @@ const deadliftExercises = [
 
 const rowExercises = [
 	["Row"],
-	["Bent Over Row", "5", "10", "240 lbs. " ],
+	["Bent Over Row", "5", "10", "240 lbs." ],
     ["Standing Press", "3", "5", "135 lbs."],
     ["Pull-up", "3", "10"],
     ["Curls", "2", "10", "85 lbs."],
