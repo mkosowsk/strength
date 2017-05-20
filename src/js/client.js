@@ -45,7 +45,7 @@ const squatExercises = [
 	["Squat"],
     ["Squat", "4", "5", "315 lbs."],
     ["Squat", "1", "7", "315 lbs."],
-    ["Reverse Machine Fly", "3", "12", "160 lbs."],
+    ["Reverse Machine Fly", "3", "12", "175 lbs."],
     ["Lateral/Bent Over Raises", "3", "20", "25 lbs."],
     ["Romanian Deadlift", "3", "10", "185 lbs."],
  ];
