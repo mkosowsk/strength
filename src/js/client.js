@@ -54,7 +54,7 @@ const benchExercises = [
 	["Bench"],
 	["Incline Bench Press", "3", "10", "195 lbs." ],
 	["Decline Bench Press", "2", "10", "245 lbs." ],
-    ["Hammer Curls", "5", "10", "30 lbs."],
+    ["Hammer Curls", "5", "10", "40 lbs."],
     ["Face Pulls", "5", "12", "95 lbs."],
     ["Incline Dumbbell Fly", "3", "10", "50 lbs."],
     ["Decline Dumbbell Press", "2", "10", "65 lbs."],
