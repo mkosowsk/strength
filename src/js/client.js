@@ -52,12 +52,12 @@ const squatExercises = [
 
 const benchExercises = [
 	["Bench"],
-	["Incline Bench Press", "3", "10", "195 lbs." ],
-	["Decline Bench Press", "2", "10", "245 lbs." ],
+	["Incline Bench Press", "3", "10", "205 lbs." ],
+	["Decline Bench Press", "2", "8", "225 lbs." ],
     ["Hammer Curls", "5", "10", "40 lbs."],
+    ["Cardio"],
     ["Face Pulls", "5", "12", "95 lbs."],
-    ["Incline Dumbbell Fly", "3", "10", "50 lbs."],
-    ["Decline Dumbbell Press", "2", "10", "65 lbs."],
+    ["Incline Dumbbell Fly", "3", "10", "55 lbs."],
 	["Dips", "2", "12"],
 ];
 
